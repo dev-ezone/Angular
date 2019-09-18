@@ -1,1 +1,1 @@
-﻿Taken from https://www.encodedna.com/angularjs/tutorial/my-first-angularjs-application.htm
+﻿Tutorial from https://www.encodedna.com/angularjs/tutorial/my-first-angularjs-application.htm
