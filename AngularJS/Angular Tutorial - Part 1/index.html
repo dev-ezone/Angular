@@ -1,0 +1,26 @@
+﻿<html ng-app="sample">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"
+            type="text/JavaScript"></script>
+
+    <script type="text/JavaScript">
+        //Angular module
+        var sample = angular.module("sample", []);
+
+        //Angular controller
+        sample.controller("sampleController", ["$scope", function ($scope) {
+            $scope.message = "Hello World";
+        }]);
+    </script>
+
+</head>
+
+<body ng-controller="sampleController">
+    <h2 ng-bind="message"></h2>
+    <!-- 
+        This does the same as above <h2>{{message}}</h2> Anything written between double curly braces are treated as Angular expressions.
+        If we use expressions on scope properties, it will be equivalent to ng-bind. 
+    -->
+    <input type="text" ng-model="message" />
+</body>
+</html>

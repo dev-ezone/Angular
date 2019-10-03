@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC Dashboard", "MVC Dashbo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction to Angular", "Introduction-to-Angular\Introduction to Angular.csproj", "{40A58DE8-A5D9-4252-90F7-21B3BB14B966}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular Tutorial - Part 1", "Angular Tutorial - Part 1\Angular Tutorial - Part 1.csproj", "{E91E1A77-5877-49F4-88E6-43F9AE3AE0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{40A58DE8-A5D9-4252-90F7-21B3BB14B966}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A58DE8-A5D9-4252-90F7-21B3BB14B966}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A58DE8-A5D9-4252-90F7-21B3BB14B966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91E1A77-5877-49F4-88E6-43F9AE3AE0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91E1A77-5877-49F4-88E6-43F9AE3AE0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91E1A77-5877-49F4-88E6-43F9AE3AE0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91E1A77-5877-49F4-88E6-43F9AE3AE0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
